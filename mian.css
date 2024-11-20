@@ -30,7 +30,7 @@ body {
 
 .container .btn {
     display: flex;
-    align-items: center;
+    justify-content: center;
     gap: 25px;
 }
 
@@ -41,5 +41,5 @@ body {
     padding: 10px 25px;
     border-radius: 8px;
     box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3%);
-    align-items: center;
+    justify-content: center;
 }
