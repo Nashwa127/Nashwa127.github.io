@@ -3,25 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./mian.css" />
-    <title>LOVEYYY</title>
+    <title>ENVELOPE FOR TOO MANY YES</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 
 <body>
     <div class="container">
-        <div class="tenor-gif-embed" data-postid="26197308" data-share-method="host" data-aspect-ratio="1.17216"
-            data-width="100%"><a href="https://tenor.com/view/white-and-brown-bear-gif-26197308">White And Brown Bear
-                GIF</a>from <a href="https://tenor.com/search/white+and+brown+bear-gifs">White And Brown Bear GIFs</a>
+        <div class="envelope-wrapper flap">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Person.</strong>
+                        <p>You are literally the most amazing person ever. Thank you for existing💕💕❤️</p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
         </div>
-        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-        <h1>Do you love me?💕</h1>
     </div>
-    <div class="btn">
-        <a href="yes.html">Yes</a>
-        <a href="no.html">No</a>
-    </div>
-    <script rel="script.js"></script>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
 </body>
 
 </html>
